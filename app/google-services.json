@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "777342142330",
+    "firebase_url": "https://shop2019-9eb5f.firebaseio.com",
+    "project_id": "shop2019-9eb5f",
+    "storage_bucket": "shop2019-9eb5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777342142330:android:78f5449d7eb9724d11f8c3",
+        "android_client_info": {
+          "package_name": "com.kelvin.shop2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777342142330-2e4mmdggo1k3s4a2ohkhfrqaur38msc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kelvin.shop2019",
+            "certificate_hash": "a1d5ff398b207012d95e6e84d2905d80d5385ddf"
+          }
+        },
+        {
+          "client_id": "777342142330-oh615ae2uuvp427ignrvb93v9v7184es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUBuu8Bg5Zvw7U8oks4M9EL96daOVggs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777342142330-oh615ae2uuvp427ignrvb93v9v7184es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
