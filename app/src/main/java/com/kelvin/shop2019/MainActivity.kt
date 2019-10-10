@@ -11,12 +11,17 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    private val RC_TEST = 200
+//    private val RC_test = 200
+    private val RC_SIGNIN = 100
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
+
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
@@ -35,12 +40,17 @@ class MainActivity : AppCompatActivity() {
         return when (item.itemId) {
             R.id.action_settings -> true
             R.id.action_signin ->{
-//                startActivityForResult (Intent(this, SinginActivity::class.java),
-//                   )
-
-
+                startActivityForResult(Intent(this, SinginActivity::class.java),
+                 RC_SIGNIN  )
                 true
             }
+            R.id.action_test ->{
+                startActivityForResult(Intent(this,TestActivity::class.java),
+                    RC_TEST  )
+                true
+            }
+
+
             else -> super.onOptionsItemSelected(item)
         }
     }
