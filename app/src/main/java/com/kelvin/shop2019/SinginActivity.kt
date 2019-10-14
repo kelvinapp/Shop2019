@@ -28,9 +28,10 @@ class SinginActivity : AppCompatActivity() {
             .signInWithEmailAndPassword(email.text.toString(), password.text.toString())
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
-                    startActivityForResult(
-                        Intent(this,TestActivity::class.java),
-                        RC_TEST  )
+                    setResult(Activity.RESULT_OK)
+//                    startActivityForResult(
+//                        Intent(this,TestActivity::class.java),
+//                        RC_TEST  )
                     finish()
                 } else {
                     AlertDialog.Builder(this@SinginActivity)
