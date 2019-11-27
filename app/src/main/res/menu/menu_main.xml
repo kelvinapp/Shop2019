@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.kelvin.shop2019.MainActivity">
     <item
-        android:id="@+id/action_signin"
+        android:id="@+id/Action_signin"
         android:title="Sign in" />
     <item
         android:id="@+id/action_settings"
@@ -15,5 +15,5 @@
         android:title="test" />
     <item
         android:id="@+id/action_signout"
-        android:title="Sing Out" />
+        android:title="Sign Out" />
 </menu>
